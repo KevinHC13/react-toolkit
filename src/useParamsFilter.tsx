@@ -1,15 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
-
-export type FieldTypeName = 'string' | 'number' | 'boolean' | 'array';
-
-export type FieldDefinition<Name extends string> = {
-    name: Name;
-    type: FieldTypeName;
-    defaultValue?: any;
-    dependsOn?: readonly Name[];
-}
-
+import { FieldDefinition, FieldTypeName } from "./types";
 
 export default function useParamsFilter<
     const F extends readonly FieldDefinition<string>[]
