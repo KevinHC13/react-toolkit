@@ -1,0 +1,40 @@
+{
+  "name": "@kevinhc/react-toolkit",
+  "version": "1.0.0",
+  "description": "Colección de hooks y utilidades React de Kevin",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^5.9.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.4.0",
+    "vite": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinHC13/react-toolkit.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "toolkit",
+    "typescript"
+  ],
+  "author": "Kevin HC",
+  "license": "MIT"
+}

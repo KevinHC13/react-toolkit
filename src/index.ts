@@ -1,0 +1,1 @@
+export { default as useParamsFilter } from './useParamsFilter';
